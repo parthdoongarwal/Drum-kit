@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    
+    width:40px;
+height:40px;
+    border-radius: 5%;
+padding:10px;
+border: 2px solid rgb(122, 118, 118);
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.btn-con{
+      
+    display:flex;
+   
+    margin:20px;
+}
+
+
+.btn-stext{
+    margin-left:50px;
+    font-size:20px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#key-mapping-con{
+    width:25vw;
+    height:100vh;
+    color:white;
+    background-color: black;
+}
+
+
+#con{
+    display:flex;
+    justify-content: flex-end;;
+}
+
+#key-mapping-heading{
+    margin-top:20px;
+    margin-bottom:40px;
+    width:100%;
+    text-align: center;
+  
+}
+
+#image-con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://media.istockphoto.com/photos/gradient-blur-background-color-warm-and-cool-tone-picture-id925849316?b=1&k=20&m=925849316&s=170667a&w=0&h=FJ8qxdVBTX8J122j-SS3C-OV-7BijcBO7rOMBbsZiPc=");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+
+#drum-img{
+width:95%;
+height:100%
+}
+
+#sec-image-con{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:70%;
+    
+}
+
+#fe{
+position:absolute;
+top:20%;
+left:12%;
+}
+
+#fr{
+    position:absolute;
+    top:20%;
+    left:30%;
+    
+}
+
+#ff{
+    position:absolute;
+bottom:30%;
+left:23%;
+
+}
+
+#fg{
+    position:absolute;
+top:42%;
+left:38%;
+
+}
+
+#fh{
+    position:absolute;
+top:46%;
+right:40%;
+
+}
+
+
+
+#fv{
+    position:absolute;
+top:65%;
+right:55%;
+
+}
+
+#fb{
+    position:absolute;
+top:65%;
+right:40%;
+}
+
+
+
+#fj{
+    position:absolute;
+  right:26%;  
+  top:53%;
+}
+
+#fi{
+    position:absolute;
+right:30%;
+top:30%;
+}
+
+#fk{
+    position:absolute;
+right:15%;
+
+top:30%;
+
+}
+
+.f{
+    transition: 100ms;
+    padding:12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height:20px;
+}
+
+.big{
+    transform: scale(1.5);
+}
+
+#drum-img{
+    background:rgba(0 , 0 , 0 , 0.2);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+#b{
+    margin-left:10px;
+
+}
